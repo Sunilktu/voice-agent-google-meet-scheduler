@@ -1,0 +1,23 @@
+[project]
+name = "voiceagent1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dateparser>=1.2.2",
+    "ffmpeg>=1.4",
+    "google-auth-oauthlib>=1.2.2",
+    "gtts>=2.5.4",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.26",
+    "langchain-google-community>=2.0.7",
+    "langchain-google-genai>=2.1.8",
+    "openai>=1.96.1",
+    "pyaudio>=0.2.14",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.1.1",
+    "pytz>=2025.2",
+    "speechrecognition>=3.14.3",
+    "streamlit>=1.46.1",
+]
