@@ -8,7 +8,7 @@ This is a voice-enabled AI assistant built with Python, Streamlit, LangChain, an
 
   * **Voice Interaction:** Speak your meeting requests and hear the bot's responses using Speech-to-Text (STT) and Text-to-Speech (TTS).
 
-  * **Dynamic Voice Button:** A single button toggles between "🎙️ Listen" (to start recording) and "⏹️ Stop" (to indicate recording is active).
+  * **Voice Button:** A single button toggles to "🎙️ Listen" (to start recording for 10 seconds) and "" (to indicate recording is active).
 
   * **Natural Language Understanding:** Understands various date and time expressions (e.g., "tomorrow at 10 AM", "next Tuesday", "in 3 days") using `python-dateutil`.
 
@@ -158,7 +158,7 @@ When you run the Streamlit app, you'll see a chat interface.
 
     1.  Click the "🎙️ Listen" button.
 
-    2.  The button will change to "⏹️ Stop", and the app will indicate it's "Listening...".
+    2.  The app will indicate it's "Listening...".
 
     3.  Speak your meeting request into your microphone.
 
