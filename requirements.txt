@@ -1,0 +1,16 @@
+streamlit 
+langchain 
+google-generativeai 
+python-dotenv 
+langchain-google-genai 
+langchain_community 
+pytz 
+python-dateutil 
+pydantic 
+SpeechRecognition 
+gTTS 
+pydub 
+nest_asyncio 
+google-api-python-client 
+google-auth-oauthlib 
+google-auth-httplib2

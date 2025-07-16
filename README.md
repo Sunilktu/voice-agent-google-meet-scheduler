@@ -74,8 +74,11 @@ your_project_root/
 
 ## 📝 Installation
 
-**1. Clone or set up files manually:**
-Place `main.py`, `tools.py`, `google_calendar_api.py`, and `voice_io.py` in your project directory.
+**1. Clone the repository and change directory:**
+```sh
+git clone https://github.com/Sunilktu/voice-agent-google-meet-scheduler.git
+cd voice-agent-google-meet-scheduler
+```
 
 **2. Install [uv](https://astral.sh/uv/) (recommended):**
 
@@ -106,7 +109,19 @@ source .venv/bin/activate
 ```sh
 uv sync
 # If needed, install manually:
-uv pip install streamlit langchain google-generativeai python-dotenv langchain-google-genai langchain_community pytz python-dateutil pydantic SpeechRecognition gTTS pydub nest_asyncio google-api-python-client google-auth-oauthlib google-auth-httplib2
+If you prefer, you can use pip to install dependencies, but using `uv` is recommended to avoid version mismatch issues. If needed, you can run:
+
+```sh
+pip install --no-cache-dir -r requirements.txt
+```
+
+However, for a direct install with pip (not recommended), use:
+
+```sh
+pip install streamlit langchain google-generativeai python-dotenv langchain-google-genai langchain_community pytz python-dateutil pydantic SpeechRecognition gTTS pydub nest_asyncio google-api-python-client google-auth-oauthlib google-auth-httplib2
+```
+
+> **Note:** `uv` handles dependency resolution more reliably than pip in most cases.
 ```
 
 ---
