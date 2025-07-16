@@ -213,3 +213,20 @@ docker run -p 8501:8501 --env-file .env -v $(pwd)/credentials.json:/app/credenti
 - The app will be available at [http://localhost:8501](http://localhost:8501).
 
 ---
+## 🎥 Demo Videos
+
+Below are demo videos showcasing the Google Meeting Scheduler Chatbot in action. Click to view or play:
+
+- [Demo Video 1: Scheduling a Meeting](https://photos.app.goo.gl/Yhi2ZriRSj5RCpE17)  
+  <video width="480" controls>
+    <source src="https://photos.app.goo.gl/Yhi2ZriRSj5RCpE17" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+- [Demo Video 2: Voice Interaction Example](https://photos.app.goo.gl/NpWhMgXJt2TTGBfB9)  
+  <video width="480" controls>
+    <source src="https://photos.app.goo.gl/NpWhMgXJt2TTGBfB9" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+_Replace the above links with your actual Google Photos video URLs._

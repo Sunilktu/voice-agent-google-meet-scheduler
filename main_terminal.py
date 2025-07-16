@@ -29,17 +29,6 @@ from gtts import gTTS
 from pydub import AudioSegment # Re-added: pydub for audio segment manipulation
 from pydub.playback import play # Re-added: pydub for audio playback
 
-# Ensure you have the necessary libraries installed:
-# pip install langchain google-generativeai python-dotenv
-# pip install langchain-google-genai # For ChatGoogleGenerativeAI
-# pip install langchain_community # For Tool
-# pip install pytz
-# pip install python-dateutil # For more robust date parsing (now used)
-# pip install pydantic # For BaseModel and Field
-# pip install google-api-python-client google-auth-oauthlib google-auth-httplib2 # For Google Calendar API
-# pip install nest_asyncio # For allowing nested asyncio event loops
-# pip install SpeechRecognition gTTS pydub # Updated: playsound replaced by pydub
-# Also, ensure FFmpeg is installed and accessible in your system's PATH for pydub to handle MP3s.
 
 # --- Google Calendar API Setup ---
 # SCOPES required for Calendar API access
@@ -246,7 +235,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 # os.environ["GOOGLE_API_KEY"] = "YOUR_GEMINI_API_KEY" # Uncomment and replace if not using env vars
 
 # Initialize the LLM
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-pro", temperature=0.05)
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.05)
 
 # Define Pydantic models for tool input schemas
 class GetCurrentDatetimeInput(BaseModel):
